@@ -48,14 +48,18 @@ A lightweight MobileNetV3 student model learns a new task (Chest X-ray classific
 ---
 
 ## **Directory Structure**
+```
 notebooks/
 │
 ├── 00_train_teacher_resnet-101.ipynb
+│
 ├── feature_kd/
-│ ├── 01_train_student_mobileNetV3.ipynb
-│ ├── 02_ewc_adaptation.ipynb
-│ └── 03_lwf_adaptation.ipynb
+│   ├── 01_train_student_mobileNetV3.ipynb
+│   ├── 02_ewc_adaptation.ipynb
+│   └── 03_lwf_adaptation.ipynb
+│
 └── logit_kd/
-├── 01_train_student_mobileNetV3.ipynb
-├── 02_ewc_adaptation.ipynb
-└── 03_lwf_adaptation.ipynb
+    ├── 01_train_student_mobileNetV3.ipynb
+    ├── 02_ewc_adaptation.ipynb
+    └── 03_lwf_adaptation.ipynb
+```
